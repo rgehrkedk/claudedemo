@@ -8,8 +8,8 @@ const Icon = ({ children, isDarkMode, currentTheme, size = 'md' }) => {
   return (
     <div className={`rounded-xl flex items-center justify-center
       ${isDarkMode 
-        ? `${themes[currentTheme].subtle} text-white` 
-        : `${themes[currentTheme].subtle} text-gray-900`}
+        ? `${mythemes[currentTheme].subtle} text-white` 
+        : `${mythemes[currentTheme].subtle} text-gray-900`}
       ${sizes[size]}`}>
       {children}
     </div>
