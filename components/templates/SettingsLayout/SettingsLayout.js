@@ -1,8 +1,8 @@
-import Header from '@/components/organisms/Header/Header';
-import DisplayVariant from '@/components/organisms/SettingsCard/DisplayVariant';
-import AccessibilityVariant from '@/components/organisms/SettingsCard/AccessibilityVariant';
-import ColorVariant from '@/components/organisms/SettingsCard/ColorVariant';
-import Button from '@/components/atoms/Button/Button';
+import Header from '../../organisms/Header/Header';
+import DisplayVariant from '../../organisms/SettingsCard/DisplayVariant';
+import AccessibilityVariant from '../../organisms/SettingsCard/AccessibilityVariant';
+import ColorVariant from '../../organisms/SettingsCard/ColorVariant';
+import Button from '../../atoms/Button/Button';
 
 const SettingsLayout = ({
   isDarkMode,
