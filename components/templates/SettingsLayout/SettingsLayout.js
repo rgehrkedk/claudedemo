@@ -8,7 +8,7 @@ const SettingsLayout = ({
   isDarkMode,
   isScrolled,
   currentTheme,
-  themes,
+  mythemes,
   accessibilitySettings,
   onDarkModeToggle,
   onThemeChange,
