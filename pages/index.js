@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import SettingsLayout from '@/components/templates/SettingsLayout/SettingsLayout';
-import { themes } from '@/utils/themes';
+import SettingsLayout from '../components/templates/SettingsLayout/SettingsLayout';
+import { themes } from '../utils/themes';
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
