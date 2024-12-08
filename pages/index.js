@@ -51,7 +51,7 @@ export default function Home() {
       isDarkMode={isDarkMode}
       isScrolled={isScrolled}
       currentTheme={currentTheme}
-      themes={themes}
+      mythemes={mythemes}
       accessibilitySettings={accessibilitySettings}
       onDarkModeToggle={handleDarkModeToggle}
       onThemeChange={handleThemeChange}
