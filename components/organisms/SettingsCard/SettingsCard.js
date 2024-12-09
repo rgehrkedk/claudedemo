@@ -1,3 +1,4 @@
+'use client';
 import CardHeader from '@/components/molecules/CardHeader/CardHeader';
 
 const SettingsCard = ({ 
