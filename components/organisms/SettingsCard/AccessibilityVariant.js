@@ -1,3 +1,4 @@
+'use client';
 import SettingsCard from './SettingsCard';
 import SettingsRow from '@/components/molecules/SettingsRow/SettingsRow';
 import { Eye, XCircle } from 'lucide-react';
