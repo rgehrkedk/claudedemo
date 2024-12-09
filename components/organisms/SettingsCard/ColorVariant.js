@@ -19,7 +19,7 @@ const ColorVariant = ({
       className="md:col-span-2"
     >
       <div className="flex gap-3 justify-center">
-        {Object.entries(themes).map(([theme, colors]) => (
+        {Object.entries(mythemes).map(([theme, colors]) => (
           <ThemeButton
             key={theme}
             theme={theme}
