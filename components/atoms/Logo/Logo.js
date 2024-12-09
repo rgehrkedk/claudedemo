@@ -1,3 +1,4 @@
+'use client';
 const Logo = ({ currentTheme = 'blue', isDarkMode = false, isScrolled = false }) => {
   return (
     <div className={`relative transition-all duration-200 group
