@@ -1,3 +1,4 @@
+'use client';
 import SettingsCard from './SettingsCard';
 import DisplaySwitch from '@/components/molecules/DisplaySwitch/DisplaySwitch';
 import { Sun } from 'lucide-react';
