@@ -30,11 +30,11 @@ const SettingsLayout = ({
       {!accessibilitySettings.disableEffects && (
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className={`absolute top-0 left-0 w-96 h-96 rounded-full 
-            ${themes[currentTheme].subtle} blur-3xl -translate-x-1/2 -translate-y-1/2`}/>
+            ${mythemes[currentTheme].subtle} blur-3xl -translate-x-1/2 -translate-y-1/2`}/>
           <div className={`absolute top-1/2 right-0 w-96 h-96 rounded-full 
-            ${themes[currentTheme].subtle} blur-3xl translate-x-1/2`}/>
+            ${mythemes[currentTheme].subtle} blur-3xl translate-x-1/2`}/>
           <div className={`absolute bottom-0 left-1/3 w-96 h-96 rounded-full 
-            ${themes[currentTheme].subtle} blur-3xl`}/>
+            ${mythemes[currentTheme].subtle} blur-3xl`}/>
         </div>
       )}
 
@@ -56,7 +56,7 @@ const SettingsLayout = ({
               isDarkMode={isDarkMode}
               onToggle={onDarkModeToggle}
               currentTheme={currentTheme}
-              themes={themes}
+              mythemes={mythemes}
             />
 
             <AccessibilityVariant
@@ -69,7 +69,7 @@ const SettingsLayout = ({
             <ColorVariant
               isDarkMode={isDarkMode}
               currentTheme={currentTheme}
-              themes={themes}
+              mythemes={mythemes}
               onThemeChange={onThemeChange}
             />
           </div>
@@ -79,7 +79,7 @@ const SettingsLayout = ({
             <Button
               variant="primary"
               fullWidth
-              className={themes[currentTheme].primary}
+              className={mythemes[currentTheme].primary}
               onClick={onGetStarted}
             >
               Get Started
