@@ -1,3 +1,4 @@
+'use client';
 const Switch = ({ isActive, onChange, currentTheme, isDarkMode }) => {
   return (
     <button
