@@ -1,3 +1,4 @@
+'use client';
 const Icon = ({ children, isDarkMode, currentTheme, size = 'md' }) => {
   const sizes = {
     sm: 'w-4 h-4',
