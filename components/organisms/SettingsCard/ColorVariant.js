@@ -6,7 +6,7 @@ import { Palette } from 'lucide-react';
 const ColorVariant = ({
   isDarkMode,
   currentTheme,
-  themes,
+  mythemes,
   onThemeChange
 }) => {
   return (
