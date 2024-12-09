@@ -1,3 +1,4 @@
+'use client';
 import SettingsCard from './SettingsCard';
 import ThemeButton from '@/components/atoms/ThemeButton/ThemeButton';
 import { Palette } from 'lucide-react';
