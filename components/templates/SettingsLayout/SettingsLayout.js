@@ -1,3 +1,4 @@
+'use client';
 import Header from '../../organisms/Header/Header';
 import DisplayVariant from '../../organisms/SettingsCard/DisplayVariant';
 import AccessibilityVariant from '../../organisms/SettingsCard/AccessibilityVariant';
