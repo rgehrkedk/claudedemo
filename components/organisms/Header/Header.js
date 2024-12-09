@@ -1,3 +1,4 @@
+'use client';
 import HeaderLogo from '@/components/molecules/HeaderLogo/HeaderLogo';
 
 const Header = ({ isDarkMode, isScrolled, currentTheme }) => {
