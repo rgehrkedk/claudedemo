@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import SettingsLayout from '../components/templates/SettingsLayout/SettingsLayout';
 import { mythemes } from '../utils/mythemes';
 
-console.log(mythemes);  // Check if mythemes is imported correctly
+console.log('mythemes:', mythemes);  // Check if mythemes is imported correctly
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
