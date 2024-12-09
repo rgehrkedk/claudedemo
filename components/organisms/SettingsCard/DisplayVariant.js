@@ -7,7 +7,7 @@ const DisplayVariant = ({
   isDarkMode,
   onToggle,
   currentTheme,
-  themes
+  mythemes
 }) => {
   return (
     <SettingsCard
@@ -21,7 +21,7 @@ const DisplayVariant = ({
         isDarkMode={isDarkMode}
         onToggle={onToggle}
         currentTheme={currentTheme}
-        themes={themes}
+        mythemes={mythemes}
       />
     </SettingsCard>
   );
