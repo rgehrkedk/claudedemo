@@ -1,4 +1,4 @@
-export const themes = {
+const themes = {
   blue: {
     primary: 'bg-blue-500',
     secondary: 'bg-blue-400',
@@ -24,3 +24,5 @@ export const themes = {
     stroke: 'stroke-teal-500'
   }
 };
+
+export default themes;
