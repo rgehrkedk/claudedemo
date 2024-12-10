@@ -56,7 +56,7 @@ const SettingsLayout = ({
               isDarkMode={isDarkMode}
               onToggle={onDarkModeToggle}
               currentTheme={currentTheme}
-              themes={mythemes}
+              themes={themes}
             />
 
             <AccessibilityVariant
@@ -69,7 +69,7 @@ const SettingsLayout = ({
             <ColorVariant
               isDarkMode={isDarkMode}
               currentTheme={currentTheme}
-              themes={mythemes}
+              themes={themes}
               onThemeChange={onThemeChange}
             />
           </div>
