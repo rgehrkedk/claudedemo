@@ -1,4 +1,4 @@
-export const mythemes = {
+export const themes = {
   blue: {
     primary: 'bg-blue-500',
     secondary: 'bg-blue-400',
