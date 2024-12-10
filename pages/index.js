@@ -2,7 +2,8 @@ console.log('themes:', themes);  // Add at the top of your Home component
 
 import dynamic from 'next/dynamic';
 import { useState, useEffect } from 'react';
-import { themes } from '../utils/themes';
+import themes from '../utils/themes';
+
 
 // Dynamic import of SettingsLayout with SSR disabled
 const SettingsLayout = dynamic(
