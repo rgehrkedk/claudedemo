@@ -1,3 +1,5 @@
+console.log('mythemes:', mythemes);  // Add at the top of your Home component
+
 import dynamic from 'next/dynamic';
 import { useState, useEffect } from 'react';
 import { mythemes } from '../utils/mythemes';
