@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 import { useState, useEffect } from 'react';
-import { themes } from '../utils/mythemes';
+import { mythemes } from '../utils/mythemes';
 
 // Dynamic import of SettingsLayout with SSR disabled
 const SettingsLayout = dynamic(
