@@ -6,7 +6,7 @@ import { Palette } from 'lucide-react';
 const ColorVariant = ({
   isDarkMode,
   currentTheme,
-  mythemes,
+  themes,
   onThemeChange
 }) => {
   return (
@@ -19,7 +19,7 @@ const ColorVariant = ({
       className="md:col-span-2"
     >
       <div className="flex gap-3 justify-center">
-        {Object.entries(mythemes).map(([theme, colors]) => (
+        {Object.entries(themes).map(([theme, colors]) => (
           <ThemeButton
             key={theme}
             theme={theme}
