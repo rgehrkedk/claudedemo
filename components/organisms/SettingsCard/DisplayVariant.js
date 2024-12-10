@@ -21,7 +21,7 @@ const DisplayVariant = ({
         isDarkMode={isDarkMode}
         onToggle={onToggle}
         currentTheme={currentTheme}
-        themes={mythemes}
+        themes={themes}
       />
     </SettingsCard>
   );
