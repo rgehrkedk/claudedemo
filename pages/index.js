@@ -1,8 +1,8 @@
-console.log('mythemes:', mythemes);  // Add at the top of your Home component
+console.log('themes:', themes);  // Add at the top of your Home component
 
 import dynamic from 'next/dynamic';
 import { useState, useEffect } from 'react';
-import { mythemes } from '../utils/mythemes';
+import { themes } from '../utils/themes';
 
 // Dynamic import of SettingsLayout with SSR disabled
 const SettingsLayout = dynamic(
@@ -57,7 +57,7 @@ export default function Home() {
      isDarkMode={isDarkMode}
      isScrolled={isScrolled}
      currentTheme={currentTheme}
-     themes={mythemes}
+     themes={themes}
      accessibilitySettings={accessibilitySettings}
      onDarkModeToggle={handleDarkModeToggle}
      onThemeChange={handleThemeChange}
